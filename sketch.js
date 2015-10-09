@@ -7,7 +7,7 @@ function setup() {
 
 function draw() {
 
-	// draw ground
+	//draw background
 
 	if (mouseIsPressed) {
 		background(random(300), random(300), random(300));
@@ -35,6 +35,6 @@ function draw() {
 	fill(0, 0, 40);
 	ellipse(mouseX, mouseY, 60, 20);
 	fill(0, 0, 40);
-	ellipse(mouseX, mouseY, 40 - 20, 15);
+	ellipse(mouseX - 30, mouseY - 10, 40, 15);
 
 }
