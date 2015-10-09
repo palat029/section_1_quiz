@@ -35,6 +35,6 @@ function draw() {
 	fill(0, 0, 40);
 	ellipse(mouseX, mouseY, 60, 20);
 	fill(0, 0, 40);
-	ellipse(mouseX - 30, mouseY - 10, 40, 15);
+	ellipse(mouseX - 20, mouseY - 10, 40, 15);
 
 }
